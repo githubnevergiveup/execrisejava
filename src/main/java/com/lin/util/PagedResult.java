@@ -11,7 +11,22 @@ import com.lin.dto.BaseEntity;
  * @since  2015年10月23日 
  */
 public class PagedResult<T> extends BaseEntity {
+
+
+
+
+
+
+
+
+
 	
+
+
+
+
+
+
 	/*serialVersionUID*/
 	private static final long serialVersionUID = 1L;
 
