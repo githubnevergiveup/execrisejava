@@ -8,13 +8,52 @@ import java.util.List;
 /**
  * Created by wyf on 2020/4/4.
  */
-@Data
 public class DeptTree {
 
 
 
 
-    private Integer deptId;
+    public Integer getDeptId() {
+		return deptId;
+	}
+
+
+	public void setDeptId(Integer deptId) {
+		this.deptId = deptId;
+	}
+
+
+	public Integer getPrantDeptId() {
+		return prantDeptId;
+	}
+
+
+	public void setPrantDeptId(Integer prantDeptId) {
+		this.prantDeptId = prantDeptId;
+	}
+
+
+	public String getDeptName() {
+		return deptName;
+	}
+
+
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
+
+
+	public List getList() {
+		return list;
+	}
+
+
+	public void setList(List list) {
+		this.list = list;
+	}
+
+
+	private Integer deptId;
 
     private Integer prantDeptId;
 
