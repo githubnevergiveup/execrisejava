@@ -40,7 +40,7 @@ public class DeptController extends BaseController {
 		//logger.info("分页查询用户信息列表请求入参：pageNumber{},pageSize{}", pageNumber,pageSize);
 		try {
 			List<Object> list=deptService.selectByCareId(careId);
-
+			//哈哈哈哈哈
     	    return JSON.toJSONString(list);
     	} catch (Exception e) {
 			return responseFail(e.getMessage());
