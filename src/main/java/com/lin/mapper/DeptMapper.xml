@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lin.dao.DeptDao">
+
+	<!-- 查询单条记录 -->
+	<select id="selectByCareId" parameterType="int" resultType="com.lin.domain.Dept">
+		SELECT * FROM dept where careId=#{careId}
+	</select>
+
+</mapper>
